@@ -5,7 +5,8 @@
 import PyPDF2 as p2
 import sqlite3
 
-DB = "G:\Downloads\GrAI\GrAIFinal.db" # if you plan on running this, run it in a folder that contains a file with the filename 'GrAICopy.db' (or alternatively, change the filename here)
+from Startup import DB
+
 PDF_FILE = "G:\Downloads\GrAI\Test Sample 2 AS for Laura_Redacted Two-Column_Redacted.pdf" # if you plan on running this, change the filename to match your PDF
 connection_obj = sqlite3.connect(DB)
 cursor = connection_obj.cursor()
