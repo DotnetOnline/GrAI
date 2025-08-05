@@ -6,7 +6,8 @@ import sqlite3
 import requests
 from bs4 import BeautifulSoup
 
-DB = 'GrAI.db' # if you plan on running this, run it in a folder that contains a file with the filename 'GrAI.db' (or alternatively, change the filename here)
+from Startup import DB
+
 startSearch = 24 # COID to start on
 endSearch = 4244 # COID to end on 
 
