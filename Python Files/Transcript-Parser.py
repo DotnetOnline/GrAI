@@ -7,7 +7,7 @@ import sqlite3
 
 from Startup import DB
 
-PDF_FILE = "G:\Downloads\GrAI\Test Sample 2 AS for Laura_Redacted Two-Column_Redacted.pdf" # if you plan on running this, change the filename to match your PDF
+PDF_FILE = "G:\Downloads\GrAI\Test Sample 2 AS for Dotnet_Redacted Two-Column_Redacted.pdf" # if you plan on running this, change the filename to match your PDF
 connection_obj = sqlite3.connect(DB)
 cursor = connection_obj.cursor()
 
