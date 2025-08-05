@@ -1,0 +1,2 @@
+DB = r"G:\Downloads\GrAI\GrAI.db" # change this to run the program!!
+STUDENT_TRANSCRIPT = r"G:\Downloads\GrAI\Testing Transcripts\SampleTranscriptTwo.pdf" # change this to select which transcript you'll test 
